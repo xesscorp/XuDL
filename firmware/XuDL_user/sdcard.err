@@ -1,0 +1,10 @@
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 83 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 114 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 161 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 166 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 178 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 188 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 208 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 210 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 214 : comparison of a signed integer to an unsigned integer detected
+Message[3004] C:\xesscorp\PRODUCTS\XuDL\firmware\XuDL_user\sdcard.c 216 : comparison of a signed integer to an unsigned integer detected

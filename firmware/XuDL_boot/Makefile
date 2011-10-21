@@ -1,0 +1,40 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: XuDL_boot.mcp
+# Date: Mon Aug 01 16:53:59 2011
+
+AS = MPASMWIN.exe
+CC = mcc18.exe
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+_output/XuDL_boot.cof : _output/main.o _output/usbmmap.o _output/usbdrv.o _output/usb9.o _output/usbdsc.o _output/usbctrltrf.o _output/boot.o _output/configbits.o
+	$(LD) /l"c:\mcc18\lib" "..\..\..\..\..\MCC18\bin\LKR\18f14k50_g.lkr" "_output\main.o" "_output\usbmmap.o" "_output\usbdrv.o" "_output\usb9.o" "_output\usbdsc.o" "_output\usbctrltrf.o" "_output\boot.o" "_output\configbits.o" /u_CRUNTIME /z__MPLAB_BUILD=1 /m"_output\XuDL_boot.map" /o"_output\XuDL_boot.cof"
+
+_output/main.o : main.c ../../../../../MCC18/h/p18cxxx.h ../../../../../MCC18/h/p18f14k50.h system/typedefs.h system/usb/usb.h autofiles/usbcfg.h system/usb/usbdefs/usbdefs_std_dsc.h autofiles/usbdsc.h system/usb/class/boot/boot.h usbcmd.h system/usb/usbdefs/usbdefs_ep0_buff.h system/usb/usbmmap.h system/usb/usbdrv/usbdrv.h system/usb/usbctrltrf/usbctrltrf.h system/usb/usb9/usb9.h io_cfg.h eeprom_flags.h system/usb/usb_compile_time_validation.h
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "main.c" -fo="_output\main.o" -scs -Opa-
+
+_output/usbmmap.o : system/usb/usbmmap.c system/typedefs.h system/usb/usb.h autofiles/usbcfg.h system/usb/usbdefs/usbdefs_std_dsc.h autofiles/usbdsc.h system/usb/class/boot/boot.h usbcmd.h system/usb/usbdefs/usbdefs_ep0_buff.h system/usb/usbmmap.h system/usb/usbdrv/usbdrv.h system/usb/usbctrltrf/usbctrltrf.h system/usb/usb9/usb9.h
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "system\usb\usbmmap.c" -fo="_output\usbmmap.o" -scs -Opa-
+
+_output/usbdrv.o : system/usb/usbdrv/usbdrv.c ../../../../../MCC18/h/p18cxxx.h ../../../../../MCC18/h/p18f14k50.h system/typedefs.h system/usb/usb.h autofiles/usbcfg.h system/usb/usbdefs/usbdefs_std_dsc.h autofiles/usbdsc.h system/usb/class/boot/boot.h usbcmd.h system/usb/usbdefs/usbdefs_ep0_buff.h system/usb/usbmmap.h system/usb/usbdrv/usbdrv.h system/usb/usbctrltrf/usbctrltrf.h system/usb/usb9/usb9.h io_cfg.h
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "system\usb\usbdrv\usbdrv.c" -fo="_output\usbdrv.o" -scs -Opa-
+
+_output/usb9.o : system/usb/usb9/usb9.c ../../../../../MCC18/h/p18cxxx.h ../../../../../MCC18/h/p18f14k50.h system/typedefs.h system/usb/usb.h autofiles/usbcfg.h system/usb/usbdefs/usbdefs_std_dsc.h autofiles/usbdsc.h system/usb/class/boot/boot.h usbcmd.h system/usb/usbdefs/usbdefs_ep0_buff.h system/usb/usbmmap.h system/usb/usbdrv/usbdrv.h system/usb/usbctrltrf/usbctrltrf.h system/usb/usb9/usb9.h io_cfg.h
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "system\usb\usb9\usb9.c" -fo="_output\usb9.o" -scs -Opa-
+
+_output/usbdsc.o : autofiles/usbdsc.c system/typedefs.h system/usb/usb.h autofiles/usbcfg.h system/usb/usbdefs/usbdefs_std_dsc.h autofiles/usbdsc.h system/usb/class/boot/boot.h usbcmd.h system/usb/usbdefs/usbdefs_ep0_buff.h system/usb/usbmmap.h system/usb/usbdrv/usbdrv.h system/usb/usbctrltrf/usbctrltrf.h system/usb/usb9/usb9.h version.h
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "autofiles\usbdsc.c" -fo="_output\usbdsc.o" -scs -Opa-
+
+_output/usbctrltrf.o : system/usb/usbctrltrf/usbctrltrf.c ../../../../../MCC18/h/p18cxxx.h ../../../../../MCC18/h/p18f14k50.h system/typedefs.h system/usb/usb.h autofiles/usbcfg.h system/usb/usbdefs/usbdefs_std_dsc.h autofiles/usbdsc.h system/usb/class/boot/boot.h usbcmd.h system/usb/usbdefs/usbdefs_ep0_buff.h system/usb/usbmmap.h system/usb/usbdrv/usbdrv.h system/usb/usbctrltrf/usbctrltrf.h system/usb/usb9/usb9.h
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "system\usb\usbctrltrf\usbctrltrf.c" -fo="_output\usbctrltrf.o" -scs -Opa-
+
+_output/boot.o : system/usb/class/boot/boot.c ../../../../../MCC18/h/p18cxxx.h ../../../../../MCC18/h/p18f14k50.h system/typedefs.h system/usb/usb.h autofiles/usbcfg.h system/usb/usbdefs/usbdefs_std_dsc.h autofiles/usbdsc.h system/usb/class/boot/boot.h usbcmd.h system/usb/usbdefs/usbdefs_ep0_buff.h system/usb/usbmmap.h system/usb/usbdrv/usbdrv.h system/usb/usbctrltrf/usbctrltrf.h system/usb/usb9/usb9.h io_cfg.h version.h
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "system\usb\class\boot\boot.c" -fo="_output\boot.o" -scs -Opa-
+
+_output/configbits.o : configbits.c
+	$(CC) -p=18F14K50 /i"C:\MCC18\h" "configbits.c" -fo="_output\configbits.o" -scs -Opa-
+
+clean : 
+	$(RM) "_output\main.o" "_output\usbmmap.o" "_output\usbdrv.o" "_output\usb9.o" "_output\usbdsc.o" "_output\usbctrltrf.o" "_output\boot.o" "_output\configbits.o" "_output\XuDL_boot.cof" "_output\XuDL_boot.hex" "_output\XuDL_boot.cod" "_output\XuDL_boot.lst" "_output\XuDL_boot.map"
+
