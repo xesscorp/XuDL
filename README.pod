@@ -1,0 +1,27 @@
+=head1 XuDL - XESS Micro Data Logging System
+
+This is the source for XuDL, a small data logging system.
+It's in a pre-alpha state right now.
+
+Here's what's in this project:
+
+=over 4
+
+=item * firmware/XuDL_boot
+
+This is the source for the USB bootloader that let's you program new code into the PIC
+18F14K50 that runs the board.
+
+=item * firmware/XuDL_user
+
+This is the source for the data logging software.
+
+=item * pcb
+
+This directory contains the Eagle schematic and board files for XuDL.
+
+=item * misc
+
+Miscellaneous stuff, just like the name says.
+
+=back
