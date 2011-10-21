@@ -14,7 +14,7 @@ This is the source for the USB bootloader that let's you program new code into t
 
 =item * firmware/XuDL_user
 
-This is the source for the data logging software.
+This is the source for the data logging software. It's in really bad shape right now.
 
 =item * pcb
 
